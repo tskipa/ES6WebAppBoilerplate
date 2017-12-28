@@ -143,7 +143,7 @@ if (process.env.npm_lifecycle_event === 'build') {
   config.module.rules.push({
     test: /\.(css|scss)$/,
     use: ['style-loader', 'css-loader', 'sass-loader'],
-    include: [path.join(__dirname, 'source/sass')],
+    include: [path.join(__dirname, 'src/sass')],
   });
 }
 
